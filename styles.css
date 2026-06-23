@@ -12,6 +12,8 @@
 
     /* Cor padrão dos textos */
     --cor-texto: #F2F2F2;
+
+    --espaco: 20px;
 }
 
 
@@ -37,22 +39,34 @@ header {
 
     /* Fundo do cabeçalho */
     background-color: var(--cor-card);
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* Espaçamento interno */
     padding: 20px;
 }
+.menu { 
+    display: flex;
+    list-style: none;
+    gap: var(--espaco);
+    margin: 0;
+    padding: 0;
+}    
 
 
 /* A = links */
-a {
+.menu a {
 
     /* Cor dos links */
-    color: var(--cor-acento);
+    color: var(--cor-texto);
 
     /* Remove o sublinhado */
     text-decoration: none;
 }
 
+.menu a:hover {
+    color: var(--cor-acento);
+}
 
 /* Aplica a mesma regra para títulos e parágrafos */
 h1, h2, h3, p {
