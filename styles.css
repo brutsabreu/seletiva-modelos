@@ -1,0 +1,62 @@
+/* :root guarda variáveis que podem ser usadas em todo o CSS */
+:root {
+
+    /* Cor de destaque (links, botões, detalhes) */
+    --cor-acento: #BF9F63;
+
+    /* Cor principal do fundo da página */
+    --cor-fundo: #481C4F;
+
+    /* Cor usada em cards, header, caixas */
+    --cor-card: #4D1E54;
+
+    /* Cor padrão dos textos */
+    --cor-texto: #F2F2F2;
+}
+
+
+/* BODY = corpo inteiro da página */
+body {
+
+    /* Cor de fundo */
+    background-color: var(--cor-fundo);
+
+    /* Cor padrão dos textos */
+    color: var(--cor-texto);
+
+    /* Remove margem padrão do navegador */
+    margin: 0;
+
+    /* Remove espaçamento interno padrão */
+    padding: 0;
+}
+
+
+/* HEADER = cabeçalho */
+header {
+
+    /* Fundo do cabeçalho */
+    background-color: var(--cor-card);
+
+    /* Espaçamento interno */
+    padding: 20px;
+}
+
+
+/* A = links */
+a {
+
+    /* Cor dos links */
+    color: var(--cor-acento);
+
+    /* Remove o sublinhado */
+    text-decoration: none;
+}
+
+
+/* Aplica a mesma regra para títulos e parágrafos */
+h1, h2, h3, p {
+
+    /* Cor do texto */
+    color: var(--cor-texto);
+}
