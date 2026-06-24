@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-Conclu%C3%ADdo-brightgreen?style=flat-square" alt="HTML Status">
-  <img src="https://img.shields.io/badge/CSS-Em_breve-lightgrey?style=flat-square" alt="CSS Status">
+  <img src="https://img.shields.io/badge/CSS-Em_andamento-yellow?style=flat-square" alt="CSS Status">
   <img src="https://img.shields.io/badge/JavaScript-Em_breve-lightgrey?style=flat-square" alt="JS Status">
   <img src="https://img.shields.io/badge/PHP-Em_breve-lightgrey?style=flat-square" alt="PHP Status">
   <img src="https://img.shields.io/badge/MySQL-Em_breve-lightgrey?style=flat-square" alt="MySQL Status">
@@ -56,7 +56,7 @@ Esta é uma **landing page one-page** desenvolvida para captação de candidatas
 
 ## 📊 Progresso
 Fase 1 ████████████████████ 100% ✅ HTML Semântico + ARIA
-Fase 2 ░░░░░░░░░░░░░░░░░░░░ 0% ⏳ CSS Responsivo
+Fase 2 ██████████░░░░░░░░░░ 50% 🟡 CSS (Flexbox, Galeria, Botão)
 Fase 3 ░░░░░░░░░░░░░░░░░░░░ 0% ⏳ JavaScript
 Fase 4 ░░░░░░░░░░░░░░░░░░░░ 0% ⏳ PHP + MySQL
 
