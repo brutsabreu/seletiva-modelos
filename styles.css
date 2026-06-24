@@ -16,6 +16,18 @@
     --espaco: 20px;
 }
 
+.btn {
+    display: inline-block;
+    background-color: var(--cor-acento);   /* Fundo DOURADO */
+    color: #1A1025;                         /* Texto QUASE PRETO */
+    padding: 12px 24px;
+    margin-bottom: 10px;
+    margin-left: 10px;   /* Empurra o botão para a DIREITA */
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 /* BODY = corpo inteiro da página */
 body {
@@ -68,9 +80,61 @@ header {
     color: var(--cor-acento);
 }
 
-/* Aplica a mesma regra para títulos e parágrafos */
-h1, h2, h3, p {
+/* ========== SEÇÃO SOBRE ========== */
+.sobre {
+    text-align: center;
+    padding: 40px var(--espaco);
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-    /* Cor do texto */
-    color: var(--cor-texto);
+.sobre h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: var(--cor-acento);
+}
+
+.sobre-texto {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.sobre-texto .dados {
+    font-size: 18px;
+    color: var(--cor-acento);
+    margin: 20px 0;
+}
+
+.sobre-texto .slogan {
+    font-size: 20px;
+}
+
+/* ========== GALERIA DE MOMENTOS ========== */
+.galeria {
+    display: flex;
+    gap: var(--espaco);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card-momento {
+    background-color: var(--cor-card);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.card-momento img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card-momento p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: var(--cor-acento);
 }
